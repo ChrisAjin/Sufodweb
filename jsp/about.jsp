@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:set var="base" value="${pageContext.request.contextPath}" />
@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
-<title>Contactez-nous - Sufod support</title>
+<title>Actualités - plein de choses intéressantes</title>
 
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
@@ -23,6 +23,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
+<meta charset="UTF-8">
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -86,69 +87,71 @@
 	<div class="container">
 
 		<ol class="breadcrumb">
-			<li><a href="index.html">Accueil</a></li>
-			<li class="active">Contactez-nous</li>
+			<li><a href="index.html">Home</a></li>
+			<li class="active">Actus</li>
 		</ol>
 
 		<div class="row">
-
+			<header class="page-header">
+				<h1 class="page-title text-center">Actus</h1>
+			</header>
 			<!-- Article main content -->
-			<article class="col-sm-9 maincontent">
-				<header class="page-header">
-					<h1 class="page-title">Contactez-nous</h1>
-				</header>
-
-				<p>Vous rencontrez un problème.</p>
-				<br>
-				<form>
-					<div class="row">
-						<div class="col-sm-6">
-							<input class="form-control" type="text" placeholder="Pseudo">
-						</div>
-						<div class="col-sm-6">
-							<input class="form-control" type="email" placeholder="Email">
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-sm-12">
-							<textarea placeholder="Ecrivez vos questions ici..."
-								class="form-control" rows="9"></textarea>
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-sm-6">
-							<label class="checkbox"><input type="checkbox">
-								Un peu de pub?</label>
-						</div>
-						<div class="col-sm-6 text-right">
-							<input class="btn btn-action" type="submit" value="Envoyer">
-						</div>
-					</div>
-				</form>
-
+			<article class="col-md-4 maincontent">
+				<h3>Réveillez le Iop enragé sommeillant en vous !</h3>
+				<img src="images/iop.jpg" alt="" class="img-rounded pull-right"
+					width="360"><br>
+				<p>Venez découvrir le nouvel événement visant à farmer les iops.
+					Nul besoin de réfléchir, seulement se montrer plus malins qu'eux
+				<h3>N'hésitez pas à taper le Iop colossal !</h3>
+				<p>Un Iop particuliêrement retors apparaîtra à certaines heures,
+					ne le manquez pas! Celui-ci se montrera particulièrement généreux
+					si vous parvenez à lui offrir un combat qui le distraira!</p>
+				<h5>
+					<a href="iop-enrage.html">En savoir plus...</a>
+				</h5>
 			</article>
 			<!-- /Article -->
-
-			<!-- Sidebar -->
-			<aside class="col-sm-3 sidebar sidebar-right">
-
-				<div class="widget">
-					<h4>Address</h4>
-					<address>2002 Holcombe Boulevard, Houston, TX 77030, USA
-					</address>
-					<h4>Phone:</h4>
-					<address>(713) 791-1414</address>
-				</div>
-
-			</aside>
-			<!-- /Sidebar -->
-
+			<article class="col-md-4 maincontent">
+				<h3>Les Cras débarquent !</h3>
+				<img src="images/cra.jpg" alt="" class="img-rounded pull-right"
+					width="360"><br>
+				<p>Venez essayer la nouvelle classe distance du jeu! Vous en
+					avez marre de l'épée et du bouclier, passez à la gatling... ou
+					plutôt à l'arc dans un premier temps.</p>
+				<h3>Nouveau gameplay et approche plus riche !</h3>
+				<p>Le temps des Iop et autres bourrins en mêlée est révolu! A
+					l'aide de votre arc assassinez vos ennemis en restant à l'abri des
+					coups avec des flèches dévastatrices. De plus cette classe vient
+					avec davantage de contenu !</p>
+				<h5>
+					<a href="cra-release.html">En savoir plus...</a>
+				</h5>
+			</article>
+			<!-- /Article -->
+			<article class="col-md-4 maincontent">
+				<h3>Owi Ankor a encore frappé !</h3>
+				<img src="images/osamodasF_illu.png" alt=""
+					class="img-rounded pull-right" width="360"><br>
+				<p>Owi Ankor est de retour pour vous jouer un mauvais tour !
+					Lors de son dernier assaut, Owi Ankor a mis un désordre sans nom.
+					Quoiqu'il arrive, cet apôtre du Dieu Osamodas ne doit pas rejoindre
+					son temple.</p>
+				<h3>Evenement de groupe !</h3>
+				<p>Venez profiter de l'occasion que vous offre Owi Ankor et
+					arrêtez-la avant qu'elle ne puisse rendre hommage à son Dieu! Une
+					montagne de loots seront obtenable si jamais ce boss est vaincu
+					avant d'accomplir son devoir !</p>
+				<h5>
+					<a href="owi-ankor.html">En savoir plus...</a>
+				</h5>
+			</article>
+			<!-- /Article -->
 		</div>
 	</div>
 	<!-- /container -->
-	<footer id="footer">
+
+
+	<footer id="footer" class="top-space">
 
 		<div class="footer1">
 			<div class="container">
@@ -193,12 +196,11 @@
 		<div class="footer2">
 			<div class="container">
 				<div class="row">
-
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-								<a href="#">Home</a> | <a href="about.html">About</a> | <a
-									href="sidebar-right.html">Sidebar</a> | <a href="contact.html">Contact</a>
+								<a href="#">Accueil</a> | <a href="about.html">Actus</a> | <a
+									href="sidebar-right.html">Sidebar</a> | <a href="contact.html">Contactez-nous</a>
 								| <b><a href="signup.html">S'inscrire</a></b>
 							</p>
 						</div>
@@ -207,12 +209,11 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2014, Your name. Designed by <a
+								Copyright &copy; 2022, SUFOD TEAM. Designed by <a
 									href="http://gettemplate.com/" rel="designer">gettemplate</a>
 							</p>
 						</div>
 					</div>
-
 				</div>
 				<!-- /row of widgets -->
 			</div>
@@ -231,12 +232,5 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
-
-	<!-- Google Maps -->
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script>
-	<script src="assets/js/google-map.js"></script>
-
-
 </body>
 </html>
