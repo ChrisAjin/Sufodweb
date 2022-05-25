@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="base" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -45,9 +49,9 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Accueil</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Actualités <b class="caret"></b></a>
+						data-toggle="dropdown">ActualitÃ©s <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="iop-enrage.html">Iop enragé</a></li>
+							<li><a href="iop-enrage.html">Iop enragÃ©</a></li>
 							<li><a href="cra-release.html">Cras de sortie</a></li>
 							<li><a href="owi-ankor.html">Owi ankor, le retour</a></li>
 						</ul></li>
@@ -75,7 +79,7 @@
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
-			<li class="active">Evénement Owi Ankor, le retour !</li>
+			<li class="active">EvÃ©nement Owi Ankor, le retour !</li>
 		</ol>
 
 		<div class="row">
@@ -88,14 +92,14 @@
 				<img src="images/osamodasF_illu.png" alt="" class="img-responsive"
 					width="360"><br>
 				<p>Owi Ankor est de retour pour vous jouer un mauvais tour !
-					Lors de son dernier aussaut, Owi Ankor a mis un désordre sans nom.
-					Quoiqu'il arrive, cet apôtre du Dieu Osamodas ne doit pas rejoindre
+					Lors de son dernier aussaut, Owi Ankor a mis un dÃ©sordre sans nom.
+					Quoiqu'il arrive, cet apÃ´tre du Dieu Osamodas ne doit pas rejoindre
 					son temple.
 				<h3>Evenement de groupe !</h3>
 				<img src="images/8E47oNu.png" alt="" class="img-responsive"
 					width="360"><br>
 				<p>Venez profiter de l'occasion que vous offre Owi Ankor et
-					arrêtez-la avant qu'elle ne puisse rendre hommage à son Dieu! Une
+					arrÃªtez-la avant qu'elle ne puisse rendre hommage Ã  son Dieu! Une
 					montagne de loots et d'item seront obtenable si jamais ce boss est
 					vaincu avant d'accomplir son devoir !</p>
 				<h3>La rage du Dieu Osamodas !</h3>
@@ -103,11 +107,11 @@
 					src="images/tumblr_c59dc5887f4dcc38977aa978c8bbe2b7_bdb811a6_640.jpg"
 					alt="" class="img-responsive" width="360"><br>
 				<p>La parole du Dieu Osamodas est absolue (du moins dans ses
-					pensées). Osez vous prendre pour plus puissant qu'un Dieu et
+					pensÃ©es). Osez vous prendre pour plus puissant qu'un Dieu et
 					provoquez-le pour lui faire comprendre que ce dieu n'est pas le
-					vôtre ! Terminez le nouveau donjon, la tour des invocations folles
-					pour lui montrer que vous ne lui prêterez alléageance sous aucun
-					prétexte et volez-lui un Gobgob qui deviendra votre familier!</p>
+					vÃ´tre ! Terminez le nouveau donjon, la tour des invocations folles
+					pour lui montrer que vous ne lui prÃªterez allÃ©ageance sous aucun
+					prÃ©texte et volez-lui un Gobgob qui deviendra votre familier!</p>
 			</article>
 			<!-- /Article -->
 		</div>
@@ -147,7 +151,7 @@
 						<h3 class="widget-title">~Sufod, un monde aux mille
 							merveilles~</h3>
 						<div class="widget-body">
-							<p>Rejoignez l'aventure et découvrez le monde fantastique de
+							<p>Rejoignez l'aventure et dÃ©couvrez le monde fantastique de
 								Sufod !</p>
 						</div>
 					</div>

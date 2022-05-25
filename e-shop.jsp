@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="base" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
-<title>Owi Ankor !</title>
+<title>E-shop â‚¬_â‚¬ !</title>
 
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
@@ -45,9 +49,9 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Accueil</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Actualités <b class="caret"></b></a>
+						data-toggle="dropdown">ActualitÃ©s <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="iop-enrage.html">Iop enragé</a></li>
+							<li><a href="iop-enrage.html">Iop enragÃ©</a></li>
 							<li><a href="cra-release.html">Cras de sortie</a></li>
 							<li><a href="owi-ankor.html">Owi ankor, le retour</a></li>
 						</ul></li>
@@ -72,46 +76,77 @@
 
 	<!-- container -->
 	<div class="container">
+		<main>
+			<div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
+				<!-- 			Free pack 			-->
+				<div class="col">
+					<div class="col-md-4 maincontent rounded-3 shadow-sm">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">La voie du dÃ©butant !</h4>
+						</div>
+						<div class="card-body">
+							<h1 class="card-title pricing-card-title">
+								0 â‚¬<small class="text-muted fw-light">/mois</small>
+							</h1>
+							<ul class="list-unstyled mt-3 mb-3">
+								<h3>Pack du dÃ©butant</h3>
+								<li>Un peu d'argent</li>
+								<li>Un pagne</li>
+								<li>Une arme basique (on est pas des bÃªtes!)</li>
+							</ul>
+							<button type="button"
+								class="w-100 btn btn-lg btn-outline-primary">Inscrivez-vous
+								gratuitement !</button>
+						</div>
+					</div>
+				</div>
+				<!-- 			Medium pack 			-->
+				<div class="col">
+					<div class="col-md-4 maincontent rounded-3 shadow-sm">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Iop tÃ©mÃ©raire !</h4>
+						</div>
+						<div class="card-body">
+							<h1 class="card-title pricing-card-title">
+								15 â‚¬<small class="text-muted fw-light">/mois</small>
+							</h1>
+							<ul class="list-unstyled mt-3 mb-3">
+								<h3>Pack du Iop</h3>
+								<li>Plus d'argent</li>
+								<li>Une tenue dÃ©cente</li>
+								<li>Une arme rare (on investi un peu plus sur ce poulain!)</li>
+							</ul>
+							<button type="button" class="w-100 btn btn-lg btn-info">C'est
+								parti pour l'aventure !</button>
+						</div>
+					</div>
+				</div>
+				<!-- 			Premium pack 			-->
+				<div class="col">
+					<div class="col-md-4 maincontent rounded-3 shadow-sm">
+						<div class="card-header py-3">
+							<h4 class="my-0 fw-normal">Deal d'Entrofs !</h4>
+						</div>
+						<div class="card-body">
+							<h1 class="card-title pricing-card-title">
+								29 â‚¬<small class="text-muted fw-light">/mois</small>
+							</h1>
+							<ul class="list-unstyled mt-3 mb-3">
+								<h3>Pack du mÃ©cÃ¨ne</h3>
+								<li>Trop d'argent</li>
+								<li>Une tenue inabordable financiÃ¨rement</li>
+								<li>Une arme lÃ©gendaire (il nous a ruinÃ©!)</li>
+							</ul>
+							<button type="button" class="w-100 btn btn-lg btn-primary">Allons
+								rouler sur les mobs !</button>
+						</div>
+					</div>
+				</div>
+			</div>
 
-		<ol class="breadcrumb">
-			<li><a href="index.html">Home</a></li>
-			<li class="active">Evénement Owi Ankor, le retour !</li>
-		</ol>
-
-		<div class="row">
-			<header class="page-header">
-				<h1 class="page-title text-center">Owi ankor !</h1>
-			</header>
-			<!-- Article main content -->
-			<article class="col-md maincontent">
-				<h2>Owi Ankor est revenue !</h2>
-				<img src="images/osamodasF_illu.png" alt="" class="img-responsive"
-					width="360"><br>
-				<p>Owi Ankor est de retour pour vous jouer un mauvais tour !
-					Lors de son dernier aussaut, Owi Ankor a mis un désordre sans nom.
-					Quoiqu'il arrive, cet apôtre du Dieu Osamodas ne doit pas rejoindre
-					son temple.
-				<h3>Evenement de groupe !</h3>
-				<img src="images/8E47oNu.png" alt="" class="img-responsive"
-					width="360"><br>
-				<p>Venez profiter de l'occasion que vous offre Owi Ankor et
-					arrêtez-la avant qu'elle ne puisse rendre hommage à son Dieu! Une
-					montagne de loots et d'item seront obtenable si jamais ce boss est
-					vaincu avant d'accomplir son devoir !</p>
-				<h3>La rage du Dieu Osamodas !</h3>
-				<img
-					src="images/tumblr_c59dc5887f4dcc38977aa978c8bbe2b7_bdb811a6_640.jpg"
-					alt="" class="img-responsive" width="360"><br>
-				<p>La parole du Dieu Osamodas est absolue (du moins dans ses
-					pensées). Osez vous prendre pour plus puissant qu'un Dieu et
-					provoquez-le pour lui faire comprendre que ce dieu n'est pas le
-					vôtre ! Terminez le nouveau donjon, la tour des invocations folles
-					pour lui montrer que vous ne lui prêterez alléageance sous aucun
-					prétexte et volez-lui un Gobgob qui deviendra votre familier!</p>
-			</article>
-			<!-- /Article -->
-		</div>
+		</main>
 	</div>
+
 	<!-- /container -->
 
 
@@ -122,7 +157,7 @@
 				<div class="row">
 
 					<div class="col-md-3 widget">
-						<h3 class="widget-title">Contactez-nous</h3>
+						<h3 class="widget-title">Contact</h3>
 						<div class="widget-body">
 							<p>
 								+234 23 9873237<br> <a href="mailto:#">benoit.baylerian@soprasteria.com</a><br>
@@ -147,7 +182,7 @@
 						<h3 class="widget-title">~Sufod, un monde aux mille
 							merveilles~</h3>
 						<div class="widget-body">
-							<p>Rejoignez l'aventure et découvrez le monde fantastique de
+							<p>Rejoignez l'aventure et dÃ©couvrez le monde fantastique de
 								Sufod !</p>
 						</div>
 					</div>

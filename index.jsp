@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="base" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,9 +49,9 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Accueil</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Actualités <b class="caret"></b></a>
+						data-toggle="dropdown">ActualitÃ©s <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="iop-enrage.html">Iop enragé</a></li>
+							<li><a href="iop-enrage.html">Iop enragÃ©</a></li>
 							<li><a href="cra-release.html">Cras de sortie</a></li>
 							<li><a href="owi-ankor.html">Owi ankor, le retour</a></li>
 						</ul></li>
@@ -105,43 +109,44 @@
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
 						<h4>
-							<i class="fa fa-cogs fa-5"></i>Mécaniques de jeu intéressante !
+							<i class="fa fa-cogs fa-5"></i>MÃ©caniques de jeu intÃ©ressante !
 						</h4>
 					</div>
 					<div class="h-body text-center">
 						<p>Rejoignez ce jeu palpitant qui vous donnera l'envie de
-							pousser l'aventure et la découverte toujours plus loin. Profitez
-							de la diversité des choix de personnages jouables et montrer
-							votre domination devant les monstres qui se présenteront devant
+							pousser l'aventure et la dÃ©couverte toujours plus loin. Profitez
+							de la diversitÃ© des choix de personnages jouables et montrer
+							votre domination devant les monstres qui se prÃ©senteront devant
 							vous !</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
 						<h4>
-							<i class="fa fa-money fa-5"></i>Gratuit ou payant, à vous de voir
-							€_€
+							<i class="fa fa-money fa-5"></i>Gratuit ou payant, Ã  vous de
+							voir â‚¬_â‚¬
 						</h4>
 					</div>
 					<div class="h-body text-center">
-						<p>Le contenu du jeu est adapté autant aux joueurs débutants
-							souhaitant se détendre qu'aux joueurs poussant le perfectionnisme
-							pour leur personnage. Tout dépendra de votre patience et de votre
-							façon d'apprécier le jeu car le choix vous revient aprés tout.</p>
+						<p>Le contenu du jeu est adaptÃ© autant aux joueurs dÃ©butants
+							souhaitant se dÃ©tendre qu'aux joueurs poussant le
+							perfectionnisme pour leur personnage. Tout dÃ©pendra de votre
+							patience et de votre faÃ§on d'apprÃ©cier le jeu car le choix vous
+							revient aprÃ©s tout.</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
 						<h4>
-							<i class="fa fa-smile-o fa-5"></i>Un problème, le support est là 
-							!
+							<i class="fa fa-smile-o fa-5"></i>Un problÃ¨me, le support est
+							lÃ Â  !
 						</h4>
 					</div>
 					<div class="h-body text-center">
-						<p>Si vous vous trouvez devant un bug ou auriez un problème,
-							n'hésitez pas à solliciter l'admin Benoît. Très professionnel et
-							avenant, il saura vous écouter et répondra à vos attentes de
-							manière efficiente.</p>
+						<p>Si vous vous trouvez devant un bug ou auriez un problÃ¨me,
+							n'hÃ©sitez pas Ã  solliciter l'admin BenoÃ®t. TrÃ©s professionnel
+							et avenant, il saura vous Ã©couter et rÃ©pondra Ã  vos attentes
+							de maniÃ¨re efficiente.</p>
 					</div>
 				</div>
 			</div>
@@ -207,7 +212,7 @@
 				perspiciatis at voluptatibus. Libero, aliquid illum possimus numquam
 				fuga.</h4>
 			<p class="text-right">
-				<a class="btn btn-primary btn-large">Learn more Â»</a>
+				<a class="btn btn-primary btn-large">Learn more Ã‚Â»</a>
 			</p>
 		</div>
 
@@ -264,7 +269,7 @@
 						<h3 class="widget-title">~Sufod, un monde aux mille
 							merveilles~</h3>
 						<div class="widget-body">
-							<p>Rejoignez l'aventure et découvrez le monde fantastique de
+							<p>Rejoignez l'aventure et dÃ©couvrez le monde fantastique de
 								Sufod !</p>
 						</div>
 					</div>
