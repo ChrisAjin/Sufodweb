@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var="base" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
-<title>Owi Ankor !</title>
+<title>Attention, Iop enragé !</title>
 
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
@@ -45,9 +49,9 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Accueil</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Actualit�s <b class="caret"></b></a>
+						data-toggle="dropdown">Actualités <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="iop-enrage.html">Iop enrag�</a></li>
+							<li><a href="iop-enrage.html">Iop enragé</a></li>
 							<li><a href="cra-release.html">Cras de sortie</a></li>
 							<li><a href="owi-ankor.html">Owi ankor, le retour</a></li>
 						</ul></li>
@@ -75,40 +79,40 @@
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
-			<li class="active">Ev�nement Owi Ankor, le retour !</li>
+			<li class="active">Evénement Iop enragé !</li>
 		</ol>
 
 		<div class="row">
 			<header class="page-header">
-				<h1 class="page-title text-center">Owi ankor !</h1>
+				<h1 class="page-title text-center">Iop enragé !</h1>
 			</header>
 			<!-- Article main content -->
 			<article class="col-md maincontent">
-				<h2>Owi Ankor est revenue !</h2>
-				<img src="images/osamodasF_illu.png" alt="" class="img-responsive"
-					width="360"><br>
-				<p>Owi Ankor est de retour pour vous jouer un mauvais tour !
-					Lors de son dernier aussaut, Owi Ankor a mis un d�sordre sans nom.
-					Quoiqu'il arrive, cet ap�tre du Dieu Osamodas ne doit pas rejoindre
-					son temple.
-				<h3>Evenement de groupe !</h3>
-				<img src="images/8E47oNu.png" alt="" class="img-responsive"
-					width="360"><br>
-				<p>Venez profiter de l'occasion que vous offre Owi Ankor et
-					arr�tez-la avant qu'elle ne puisse rendre hommage � son Dieu! Une
-					montagne de loots et d'item seront obtenable si jamais ce boss est
-					vaincu avant d'accomplir son devoir !</p>
-				<h3>La rage du Dieu Osamodas !</h3>
+				<h2>Réveillez le Iop enragé sommeillant en vous !</h2>
+				<img src="images/iop.jpg" alt="" class="img-responsive" width="360"><br>
+				<p>Venez découvrir le nouvel événement visant à farmer les Iops.
+					Nul besoin de réfléchir, seulement se montrer plus malins qu'eux
+				<h3>N'hésitez pas à taper le Iop colossal !</h3>
+				<img src="images/1161729-entete-article_m-1.png" alt=""
+					class="img-responsive" width="360"><br>
+				<p>Un Iop particulièrement retors apparaîtra à certaines heures,
+					ne le manquez pas! Celui-ci se montrera particulièrement généreux
+					si vous parvenez à lui offrir un combat qui le distraira!</p>
+				<h3>De la fuite dans les idées !</h3>
 				<img
-					src="images/tumblr_c59dc5887f4dcc38977aa978c8bbe2b7_bdb811a6_640.jpg"
+					src="images/tumblr_d0f73e2eb9aafebbf8238484dfe31f68_3deee28e_540.jpg"
 					alt="" class="img-responsive" width="360"><br>
-				<p>La parole du Dieu Osamodas est absolue (du moins dans ses
-					pens�es). Osez vous prendre pour plus puissant qu'un Dieu et
-					provoquez-le pour lui faire comprendre que ce dieu n'est pas le
-					v�tre ! Terminez le nouveau donjon, la tour des invocations folles
-					pour lui montrer que vous ne lui pr�terez all�ageance sous aucun
-					pr�texte et volez-lui un Gobgob qui deviendra votre familier!</p>
+				<p>Nul en ces lieux ne saurait ignorer les effets qu'ont le
+					manque de combats ou la reflexion intensive chez ces individus. Il
+					vous revient alors de calmer leurs ardeurs ou leur envie
+					d'apprendre plus que nécessaire à ces grands benêts! Résolvez des
+					énigmes pour leur venir en aide sinon parvenez à leur faire oublier
+					le problème existentiel qu'ils tentaient de résoudre (oui c'est
+					possible).</p>
 			</article>
+			<h5>
+				<a href="about.html">Retour actus</a>
+			</h5>
 			<!-- /Article -->
 		</div>
 	</div>
@@ -147,7 +151,7 @@
 						<h3 class="widget-title">~Sufod, un monde aux mille
 							merveilles~</h3>
 						<div class="widget-body">
-							<p>Rejoignez l'aventure et d�couvrez le monde fantastique de
+							<p>Rejoignez l'aventure et découvrez le monde fantastique de
 								Sufod !</p>
 						</div>
 					</div>
