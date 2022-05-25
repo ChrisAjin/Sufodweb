@@ -5,13 +5,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<meta charset="UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-
-<title>E-shop €_€ !</title>
-
+<title>E-shop $_$ !</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+	crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -23,14 +31,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
 </head>
-
 <body>
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom">
@@ -49,9 +50,9 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Accueil</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Actualités <b class="caret"></b></a>
+						data-toggle="dropdown">ActualitÃ©s <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="iop-enrage.html">Iop enragé</a></li>
+							<li><a href="iop-enrage.html">Iop enragÃ©</a></li>
 							<li><a href="cra-release.html">Cras de sortie</a></li>
 							<li><a href="owi-ankor.html">Owi ankor, le retour</a></li>
 						</ul></li>
@@ -82,17 +83,17 @@
 				<div class="col">
 					<div class="col-md-4 maincontent rounded-3 shadow-sm">
 						<div class="card-header py-3">
-							<h4 class="my-0 fw-normal">La voie du débutant !</h4>
+							<h4 class="my-0 fw-normal">La voie du dÃ©butant !</h4>
 						</div>
 						<div class="card-body">
 							<h1 class="card-title pricing-card-title">
-								0 €<small class="text-muted fw-light">/mois</small>
+								0 â‚¬<small class="text-muted fw-light">/mois</small>
 							</h1>
 							<ul class="list-unstyled mt-3 mb-3">
-								<h3>Pack du débutant</h3>
+								<h3>Pack du dÃ©butant</h3>
 								<li>Un peu d'argent</li>
 								<li>Un pagne</li>
-								<li>Une arme basique (on est pas des bêtes!)</li>
+								<li>Une arme basique (on est pas des bÃªtes!)</li>
 							</ul>
 							<button type="button"
 								class="w-100 btn btn-lg btn-outline-primary">Inscrivez-vous
@@ -104,16 +105,16 @@
 				<div class="col">
 					<div class="col-md-4 maincontent rounded-3 shadow-sm">
 						<div class="card-header py-3">
-							<h4 class="my-0 fw-normal">Iop téméraire !</h4>
+							<h4 class="my-0 fw-normal">Iop tÃ©mÃ©raire !</h4>
 						</div>
 						<div class="card-body">
 							<h1 class="card-title pricing-card-title">
-								15 €<small class="text-muted fw-light">/mois</small>
+								15 â‚¬<small class="text-muted fw-light">/mois</small>
 							</h1>
 							<ul class="list-unstyled mt-3 mb-3">
 								<h3>Pack du Iop</h3>
 								<li>Plus d'argent</li>
-								<li>Une tenue décente</li>
+								<li>Une tenue dÃ©cente</li>
 								<li>Une arme rare (on investi un peu plus sur ce poulain!)</li>
 							</ul>
 							<button type="button" class="w-100 btn btn-lg btn-info">C'est
@@ -129,13 +130,13 @@
 						</div>
 						<div class="card-body">
 							<h1 class="card-title pricing-card-title">
-								29 €<small class="text-muted fw-light">/mois</small>
+								29 â‚¬<small class="text-muted fw-light">/mois</small>
 							</h1>
 							<ul class="list-unstyled mt-3 mb-3">
-								<h3>Pack du mécène</h3>
+								<h3>Pack du mÃ©cÃ¨ne</h3>
 								<li>Trop d'argent</li>
-								<li>Une tenue inabordable financièrement</li>
-								<li>Une arme légendaire (il nous a ruiné!)</li>
+								<li>Une tenue inabordable financiÃ¨rement</li>
+								<li>Une arme lÃ©gendaire (il nous a ruinÃ©!)</li>
 							</ul>
 							<button type="button" class="w-100 btn btn-lg btn-primary">Allons
 								rouler sur les mobs !</button>
@@ -182,7 +183,7 @@
 						<h3 class="widget-title">~Sufod, un monde aux mille
 							merveilles~</h3>
 						<div class="widget-body">
-							<p>Rejoignez l'aventure et découvrez le monde fantastique de
+							<p>Rejoignez l'aventure et dÃ©couvrez le monde fantastique de
 								Sufod !</p>
 						</div>
 					</div>
@@ -199,7 +200,8 @@
 						<div class="widget-body">
 							<p class="simplenav">
 								<a href="#">Home</a> | <a href="about.html">Actus</a> | <a
-									href="sidebar-right.html">Sidebar</a> | <a href="contact.html">Contactez-nous</a>
+									href="sidebar-right.html">Sidebar</a> | <a
+									href="pages-termes.html">CGUs</a> | <a href="contact.html">Contactez-nous</a>
 								| <b><a href="signup.html">S'inscrire</a></b>
 							</p>
 						</div>

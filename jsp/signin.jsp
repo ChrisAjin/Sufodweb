@@ -10,16 +10,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-<title>Attention, Iop enragÃ© !</title>
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	crossorigin="anonymous">
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	crossorigin="anonymous"></script>
+<title>Se connecter - Sufod</title>
+
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -31,6 +23,15 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+	crossorigin="anonymous"></script>
 </head>
 <body>
 	<!-- Fixed navbar -->
@@ -80,43 +81,57 @@
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
-			<li class="active">EvÃ©nement Iop enragÃ© !</li>
+			<li class="active">AccÃ¨s utilisateur</li>
 		</ol>
 
 		<div class="row">
-			<header class="page-header">
-				<h1 class="page-title text-center">Iop enragÃ© !</h1>
-			</header>
+
 			<!-- Article main content -->
-			<article class="col-md maincontent">
-				<h2>RÃ©veillez le Iop enragÃ© sommeillant en vous !</h2>
-				<img src="images/iop.jpg" alt="" class="img-responsive" width="360"><br>
-				<p>Venez dÃ©couvrir le nouvel Ã©vÃ©nement visant Ã  farmer les
-					Iops. Nul besoin de rÃ©flÃ©chir, seulement se montrer plus malins
-					qu'eux
-				<h3>N'hÃ©sitez pas Ã  taper le Iop colossal !</h3>
-				<img src="images/1161729-entete-article_m-1.png" alt=""
-					class="img-responsive" width="360"><br>
-				<p>Un Iop particuliÃ¨rement retors apparaÃ®tra Ã  certaines
-					heures, ne le manquez pas! Celui-ci se montrera particuliÃ¨rement
-					gÃ©nÃ©reux si vous parvenez Ã  lui offrir un combat qui le
-					distraira!</p>
-				<h3>De la fuite dans les idÃ©es !</h3>
-				<img
-					src="images/tumblr_d0f73e2eb9aafebbf8238484dfe31f68_3deee28e_540.jpg"
-					alt="" class="img-responsive" width="360"><br>
-				<p>Nul en ces lieux ne saurait ignorer les effets qu'ont le
-					manque de combats ou la reflexion intensive chez ces individus. Il
-					vous revient alors de calmer leurs ardeurs ou leur envie
-					d'apprendre plus que nÃ©cessaire Ã  ces grands benÃªts! RÃ©solvez
-					des Ã©nigmes pour leur venir en aide sinon parvenez Ã  leur faire
-					oublier le problÃ¨me existentiel qu'ils tentaient de rÃ©soudre (oui
-					c'est possible).</p>
+			<article class="col-xs-12 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Se connecter</h1>
+				</header>
+
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h3 class="thin text-center">Vous connecter Ã  votre compte</h3>
+							<p class="text-center text-muted">
+								Rejoignez l'aventure et <a href="signup.html">Inscrivez-vous</a>
+								pour visiter.
+							</p>
+							<hr>
+
+							<form>
+								<div class="top-margin">
+									<label>Identifiant/Email <span class="text-danger">*</span></label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="top-margin">
+									<label>Mot de passe <span class="text-danger">*</span></label>
+									<input type="password" class="form-control">
+								</div>
+
+								<hr>
+
+								<div class="row">
+									<div class="col-lg-8">
+										<b><a href="">Mot de passe oubliÃ©?</a></b>
+									</div>
+									<div class="col-lg-4 text-right">
+										<button class="btn btn-action" type="submit">Se
+											connecter</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+
 			</article>
-			<h5>
-				<a href="about.html">Retour actus</a>
-			</h5>
 			<!-- /Article -->
+
 		</div>
 	</div>
 	<!-- /container -->
@@ -167,12 +182,13 @@
 		<div class="footer2">
 			<div class="container">
 				<div class="row">
+
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-								<a href="#">Home</a> | <a href="about.html">Actus</a> | <a
+								<a href="#">Home</a> | <a href="about.html">About</a> | <a
 									href="sidebar-right.html">Sidebar</a> | <a
-									href="pages-termes.html">CGUs</a> | <a href="contact.html">Contactez-nous</a>
+									href="pages-termes.html">CGUs</a> | <a href="contact.html">Contact</a>
 								| <b><a href="signup.html">S'inscrire</a></b>
 							</p>
 						</div>
@@ -181,11 +197,12 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2022, SUFOD TEAM. Designed by <a
+								Copyright &copy; 2014, Your name. Designed by <a
 									href="http://gettemplate.com/" rel="designer">gettemplate</a>
 							</p>
 						</div>
 					</div>
+
 				</div>
 				<!-- /row of widgets -->
 			</div>

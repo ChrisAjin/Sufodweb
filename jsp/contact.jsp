@@ -3,15 +3,24 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:set var="base" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
 <title>Contactez-nous - Sufod support</title>
-
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+	crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -23,22 +32,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	crossorigin="anonymous">
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	crossorigin="anonymous"></script>
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
 </head>
-
 <body>
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom">
@@ -57,9 +51,9 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Accueil</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Actualités <b class="caret"></b></a>
+						data-toggle="dropdown">ActualitÃ©s <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="iop-enrage.html">Iop enragé</a></li>
+							<li><a href="iop-enrage.html">Iop enragÃ©</a></li>
 							<li><a href="cra-release.html">Cras de sortie</a></li>
 							<li><a href="owi-ankor.html">Owi ankor, le retour</a></li>
 						</ul></li>
@@ -86,7 +80,7 @@
 	<div class="container">
 
 		<ol class="breadcrumb">
-			<li><a href="index.html">Accueil</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li class="active">Contactez-nous</li>
 		</ol>
 
@@ -98,7 +92,7 @@
 					<h1 class="page-title">Contactez-nous</h1>
 				</header>
 
-				<p>Vous rencontrez un problème.</p>
+				<p>Vous rencontrez un problÃ¨me.</p>
 				<br>
 				<form>
 					<div class="row">
@@ -155,7 +149,7 @@
 				<div class="row">
 
 					<div class="col-md-3 widget">
-						<h3 class="widget-title">Contactez-nous</h3>
+						<h3 class="widget-title">Contact</h3>
 						<div class="widget-body">
 							<p>
 								+234 23 9873237<br> <a href="mailto:#">benoit.baylerian@soprasteria.com</a><br>
@@ -165,7 +159,7 @@
 					</div>
 
 					<div class="col-md-3 widget">
-						<h3 class="widget-title">Suivez-nous</h3>
+						<h3 class="widget-title">Follow me</h3>
 						<div class="widget-body">
 							<p class="follow-me-icons clearfix">
 								<a href=""><i class="fa fa-twitter fa-2"></i></a> <a href=""><i
@@ -180,7 +174,7 @@
 						<h3 class="widget-title">~Sufod, un monde aux mille
 							merveilles~</h3>
 						<div class="widget-body">
-							<p>Rejoignez l'aventure et découvrez le monde fantastique de
+							<p>Rejoignez l'aventure et dÃ©couvrez le monde fantastique de
 								Sufod !</p>
 						</div>
 					</div>
@@ -198,7 +192,8 @@
 						<div class="widget-body">
 							<p class="simplenav">
 								<a href="#">Home</a> | <a href="about.html">About</a> | <a
-									href="sidebar-right.html">Sidebar</a> | <a href="contact.html">Contact</a>
+									href="sidebar-right.html">Sidebar</a> | <a
+									href="pages-termes.html">CGUs</a> | <a href="contact.html">Contact</a>
 								| <b><a href="signup.html">S'inscrire</a></b>
 							</p>
 						</div>

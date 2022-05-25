@@ -5,13 +5,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<meta charset="UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-
-<title>Une nouvelle ère se profile !</title>
-
+<title>Une nouvelle Ã¨re se profile !</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+	crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -23,14 +31,7 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
-	<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
 </head>
-
 <body>
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom">
@@ -49,9 +50,9 @@
 				<ul class="nav navbar-nav pull-right">
 					<li><a href="index.html">Accueil</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown">Actualités <b class="caret"></b></a>
+						data-toggle="dropdown">ActualitÃ©s <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li><a href="iop-enrage.html">Iop enragé</a></li>
+							<li><a href="iop-enrage.html">Iop enragÃ©</a></li>
 							<li><a href="cra-release.html">Cras de sortie</a></li>
 							<li><a href="owi-ankor.html">Owi ankor, le retour</a></li>
 						</ul></li>
@@ -79,35 +80,35 @@
 
 		<ol class="breadcrumb">
 			<li><a href="index.html">Home</a></li>
-			<li class="active">Nouvelle classe implémentée !</li>
+			<li class="active">Nouvelle classe implÃ©mentÃ©e !</li>
 		</ol>
 
 		<div class="row">
 			<header class="page-header">
-				<h1 class="page-title text-center">Les Cras débarquent !</h1>
+				<h1 class="page-title text-center">Les Cras dÃ©barquent !</h1>
 			</header>
 			<!-- Article main content -->
 			<article class="col-md maincontent">
-				<h2>Réveillez le Iop enragé sommeillant en vous !</h2>
+				<h2>RÃ©veillez le Iop enragÃ© sommeillant en vous !</h2>
 				<img src="images/cra.jpg" alt="" class="img-responsive" width="360"><br>
 				<p>Venez essayer la nouvelle classe distance du jeu! Vous en
-					avez marre de l'épée et du bouclier, passez Ã  la gatling... ou
+					avez marre de l'Ã©pÃ©e et du bouclier, passez Ã  la gatling... ou
 					plutÃ´t Ã  l'arc dans un premier temps.
-				<h3>Testez ce nouveau gameplay le 3 jours dès sa sortie !</h3>
+				<h3>Testez ce nouveau gameplay le 3 jours dÃ¨s sa sortie !</h3>
 				<img src="images/DXgdHWWXcAAw6Ng.jpg" alt="" class="img-responsive"
 					width="360"><br>
 				<p>Vous aurez la chance de pouvoir tester cette nouvelle classe
 					pour voir si cette nouvelle approche est faite pour vous ! De plus
 					si vous parvenez Ã  atteindre la niveau 10 vous recevrez un cadeau
-					spécial.
+					spÃ©cial.
 				<p>
 				<h3>Devenez la terreur des autres joueurs !</h3>
 				<img src="images/maxresdefault.jpg" alt="" class="img-responsive"
 					width="360"><br>
-				<p>Usez de toutes vos flèches pour faire trembler vos ennemis
-					de terreurs ! De nouvelles mécaniques voient le jour avec cette
-					sortie, notamment des malus impactant plus sévèrement ceux qui
-					n'arrivent pas Ã  réduire rapidement la distance qui vous sépare.
+				<p>Usez de toutes vos flÃ¨ches pour faire trembler vos ennemis
+					de terreurs ! De nouvelles mÃ©caniques voient le jour avec cette
+					sortie, notamment des malus impactant plus sÃ©vÃ¨rement ceux qui
+					n'arrivent pas Ã  rÃ©duire rapidement la distance qui vous sÃ©pare.
 					Bien que vous soyez fragile, encore faudrait-il que vous opposants
 					vous touchent pour le savoir !</p>
 			</article>
@@ -152,7 +153,7 @@
 						<h3 class="widget-title">~Sufod, un monde aux mille
 							merveilles~</h3>
 						<div class="widget-body">
-							<p>Rejoignez l'aventure et découvrez le monde fantastique de
+							<p>Rejoignez l'aventure et dÃ©couvrez le monde fantastique de
 								Sufod !</p>
 						</div>
 					</div>
@@ -169,7 +170,8 @@
 						<div class="widget-body">
 							<p class="simplenav">
 								<a href="#">Home</a> | <a href="about.html">Actus</a> | <a
-									href="sidebar-right.html">Sidebar</a> | <a href="contact.html">Contactez-nous</a>
+									href="sidebar-right.html">Sidebar</a> | <a
+									href="pages-termes.html">CGUs</a> | <a href="contact.html">Contactez-nous</a>
 								| <b><a href="signup.html">S'inscrire</a></b>
 							</p>
 						</div>
