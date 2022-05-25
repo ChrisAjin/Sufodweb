@@ -1,16 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:set var="base" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
-<title>Attention, Iop enragé !</title>
+<title>Contactez-nous - Sufod support</title>
 
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
@@ -23,7 +23,15 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
-
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+	crossorigin="anonymous"></script>
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
@@ -78,48 +86,69 @@
 	<div class="container">
 
 		<ol class="breadcrumb">
-			<li><a href="index.html">Home</a></li>
-			<li class="active">Evénement Iop enragé !</li>
+			<li><a href="index.html">Accueil</a></li>
+			<li class="active">Contactez-nous</li>
 		</ol>
 
 		<div class="row">
-			<header class="page-header">
-				<h1 class="page-title text-center">Iop enragé !</h1>
-			</header>
+
 			<!-- Article main content -->
-			<article class="col-md maincontent">
-				<h2>Réveillez le Iop enragé sommeillant en vous !</h2>
-				<img src="images/iop.jpg" alt="" class="img-responsive" width="360"><br>
-				<p>Venez découvrir le nouvel événement visant à farmer les Iops.
-					Nul besoin de réfléchir, seulement se montrer plus malins qu'eux
-				<h3>N'hésitez pas à taper le Iop colossal !</h3>
-				<img src="images/1161729-entete-article_m-1.png" alt=""
-					class="img-responsive" width="360"><br>
-				<p>Un Iop particulièrement retors apparaîtra à certaines heures,
-					ne le manquez pas! Celui-ci se montrera particulièrement généreux
-					si vous parvenez à lui offrir un combat qui le distraira!</p>
-				<h3>De la fuite dans les idées !</h3>
-				<img
-					src="images/tumblr_d0f73e2eb9aafebbf8238484dfe31f68_3deee28e_540.jpg"
-					alt="" class="img-responsive" width="360"><br>
-				<p>Nul en ces lieux ne saurait ignorer les effets qu'ont le
-					manque de combats ou la reflexion intensive chez ces individus. Il
-					vous revient alors de calmer leurs ardeurs ou leur envie
-					d'apprendre plus que nécessaire à ces grands benêts! Résolvez des
-					énigmes pour leur venir en aide sinon parvenez à leur faire oublier
-					le problème existentiel qu'ils tentaient de résoudre (oui c'est
-					possible).</p>
+			<article class="col-sm-9 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Contactez-nous</h1>
+				</header>
+
+				<p>Vous rencontrez un problème.</p>
+				<br>
+				<form>
+					<div class="row">
+						<div class="col-sm-6">
+							<input class="form-control" type="text" placeholder="Pseudo">
+						</div>
+						<div class="col-sm-6">
+							<input class="form-control" type="email" placeholder="Email">
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-12">
+							<textarea placeholder="Ecrivez vos questions ici..."
+								class="form-control" rows="9"></textarea>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<div class="col-sm-6">
+							<label class="checkbox"><input type="checkbox">
+								Un peu de pub?</label>
+						</div>
+						<div class="col-sm-6 text-right">
+							<input class="btn btn-action" type="submit" value="Envoyer">
+						</div>
+					</div>
+				</form>
+
 			</article>
-			<h5>
-				<a href="about.html">Retour actus</a>
-			</h5>
 			<!-- /Article -->
+
+			<!-- Sidebar -->
+			<aside class="col-sm-3 sidebar sidebar-right">
+
+				<div class="widget">
+					<h4>Address</h4>
+					<address>2002 Holcombe Boulevard, Houston, TX 77030, USA
+					</address>
+					<h4>Phone:</h4>
+					<address>(713) 791-1414</address>
+				</div>
+
+			</aside>
+			<!-- /Sidebar -->
+
 		</div>
 	</div>
 	<!-- /container -->
-
-
-	<footer id="footer" class="top-space">
+	<footer id="footer">
 
 		<div class="footer1">
 			<div class="container">
@@ -164,11 +193,12 @@
 		<div class="footer2">
 			<div class="container">
 				<div class="row">
+
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="simplenav">
-								<a href="#">Home</a> | <a href="about.html">Actus</a> | <a
-									href="sidebar-right.html">Sidebar</a> | <a href="contact.html">Contactez-nous</a>
+								<a href="#">Home</a> | <a href="about.html">About</a> | <a
+									href="sidebar-right.html">Sidebar</a> | <a href="contact.html">Contact</a>
 								| <b><a href="signup.html">S'inscrire</a></b>
 							</p>
 						</div>
@@ -177,11 +207,12 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2022, SUFOD TEAM. Designed by <a
+								Copyright &copy; 2014, Your name. Designed by <a
 									href="http://gettemplate.com/" rel="designer">gettemplate</a>
 							</p>
 						</div>
 					</div>
+
 				</div>
 				<!-- /row of widgets -->
 			</div>
@@ -200,5 +231,12 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
+
+	<!-- Google Maps -->
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script>
+	<script src="assets/js/google-map.js"></script>
+
+
 </body>
 </html>

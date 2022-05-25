@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:set var="base" value="${pageContext.request.contextPath}" />
@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
-<title>E-shop €_€ !</title>
+<title>Owi Ankor !</title>
 
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
@@ -76,77 +76,46 @@
 
 	<!-- container -->
 	<div class="container">
-		<main>
-			<div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
-				<!-- 			Free pack 			-->
-				<div class="col">
-					<div class="col-md-4 maincontent rounded-3 shadow-sm">
-						<div class="card-header py-3">
-							<h4 class="my-0 fw-normal">La voie du débutant !</h4>
-						</div>
-						<div class="card-body">
-							<h1 class="card-title pricing-card-title">
-								0 €<small class="text-muted fw-light">/mois</small>
-							</h1>
-							<ul class="list-unstyled mt-3 mb-3">
-								<h3>Pack du débutant</h3>
-								<li>Un peu d'argent</li>
-								<li>Un pagne</li>
-								<li>Une arme basique (on est pas des bêtes!)</li>
-							</ul>
-							<button type="button"
-								class="w-100 btn btn-lg btn-outline-primary">Inscrivez-vous
-								gratuitement !</button>
-						</div>
-					</div>
-				</div>
-				<!-- 			Medium pack 			-->
-				<div class="col">
-					<div class="col-md-4 maincontent rounded-3 shadow-sm">
-						<div class="card-header py-3">
-							<h4 class="my-0 fw-normal">Iop téméraire !</h4>
-						</div>
-						<div class="card-body">
-							<h1 class="card-title pricing-card-title">
-								15 €<small class="text-muted fw-light">/mois</small>
-							</h1>
-							<ul class="list-unstyled mt-3 mb-3">
-								<h3>Pack du Iop</h3>
-								<li>Plus d'argent</li>
-								<li>Une tenue décente</li>
-								<li>Une arme rare (on investi un peu plus sur ce poulain!)</li>
-							</ul>
-							<button type="button" class="w-100 btn btn-lg btn-info">C'est
-								parti pour l'aventure !</button>
-						</div>
-					</div>
-				</div>
-				<!-- 			Premium pack 			-->
-				<div class="col">
-					<div class="col-md-4 maincontent rounded-3 shadow-sm">
-						<div class="card-header py-3">
-							<h4 class="my-0 fw-normal">Deal d'Entrofs !</h4>
-						</div>
-						<div class="card-body">
-							<h1 class="card-title pricing-card-title">
-								29 €<small class="text-muted fw-light">/mois</small>
-							</h1>
-							<ul class="list-unstyled mt-3 mb-3">
-								<h3>Pack du mécène</h3>
-								<li>Trop d'argent</li>
-								<li>Une tenue inabordable financièrement</li>
-								<li>Une arme légendaire (il nous a ruiné!)</li>
-							</ul>
-							<button type="button" class="w-100 btn btn-lg btn-primary">Allons
-								rouler sur les mobs !</button>
-						</div>
-					</div>
-				</div>
-			</div>
 
-		</main>
+		<ol class="breadcrumb">
+			<li><a href="index.html">Home</a></li>
+			<li class="active">Evénement Owi Ankor, le retour !</li>
+		</ol>
+
+		<div class="row">
+			<header class="page-header">
+				<h1 class="page-title text-center">Owi ankor !</h1>
+			</header>
+			<!-- Article main content -->
+			<article class="col-md maincontent">
+				<h2>Owi Ankor est revenue !</h2>
+				<img src="images/osamodasF_illu.png" alt="" class="img-responsive"
+					width="360"><br>
+				<p>Owi Ankor est de retour pour vous jouer un mauvais tour !
+					Lors de son dernier aussaut, Owi Ankor a mis un désordre sans nom.
+					Quoiqu'il arrive, cet apôtre du Dieu Osamodas ne doit pas rejoindre
+					son temple.
+				<h3>Evenement de groupe !</h3>
+				<img src="images/8E47oNu.png" alt="" class="img-responsive"
+					width="360"><br>
+				<p>Venez profiter de l'occasion que vous offre Owi Ankor et
+					arrêtez-la avant qu'elle ne puisse rendre hommage à son Dieu! Une
+					montagne de loots et d'item seront obtenable si jamais ce boss est
+					vaincu avant d'accomplir son devoir !</p>
+				<h3>La rage du Dieu Osamodas !</h3>
+				<img
+					src="images/tumblr_c59dc5887f4dcc38977aa978c8bbe2b7_bdb811a6_640.jpg"
+					alt="" class="img-responsive" width="360"><br>
+				<p>La parole du Dieu Osamodas est absolue (du moins dans ses
+					pensées). Osez vous prendre pour plus puissant qu'un Dieu et
+					provoquez-le pour lui faire comprendre que ce dieu n'est pas le
+					vôtre ! Terminez le nouveau donjon, la tour des invocations folles
+					pour lui montrer que vous ne lui prêterez alléageance sous aucun
+					prétexte et volez-lui un Gobgob qui deviendra votre familier!</p>
+			</article>
+			<!-- /Article -->
+		</div>
 	</div>
-
 	<!-- /container -->
 
 
@@ -157,7 +126,7 @@
 				<div class="row">
 
 					<div class="col-md-3 widget">
-						<h3 class="widget-title">Contact</h3>
+						<h3 class="widget-title">Contactez-nous</h3>
 						<div class="widget-body">
 							<p>
 								+234 23 9873237<br> <a href="mailto:#">benoit.baylerian@soprasteria.com</a><br>
