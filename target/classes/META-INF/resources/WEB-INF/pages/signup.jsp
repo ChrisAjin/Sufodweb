@@ -12,6 +12,15 @@
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
 <title>S'inscrire - Sufod</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+	crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -23,15 +32,6 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	crossorigin="anonymous">
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	crossorigin="anonymous"></script>
 </head>
 <body>
 	<!-- Fixed navbar -->
@@ -117,7 +117,15 @@
 
 							<form>
 								<div class="top-margin">
-									<label>Login:<span class="text-danger">*</span></label> <input
+									<label>Nom:<span class="text-danger">*</span></label> <input
+										type="text" class="form-control">
+								</div>
+								<div class="top-margin">
+									<label>Prenom:<span class="text-danger">*</span></label> <input
+										type="text" class="form-control">
+								</div>
+								<div class="top-margin">
+									<label>Pseudo:<span class="text-danger">*</span></label> <input
 										type="text" class="form-control">
 								</div>
 								<div class="top-margin">
@@ -135,8 +143,8 @@
 										<input type="text" class="form-control">
 									</div>
 									<div class="col-sm-12">
-										<label> Tous les champs ayant <span
-											class="text-danger">*</span> sont obligatoires.
+										<label>Tous les champs ayant <span class="text-danger">*</span>
+											sont obligatoires.
 										</label>
 									</div>
 								</div>
