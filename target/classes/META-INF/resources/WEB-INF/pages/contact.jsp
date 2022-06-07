@@ -76,7 +76,7 @@
 	<div class="container">
 
 		<ol class="breadcrumb">
-			<li><a href="${base}/home">Home</a></li>
+			<li><a href="${base}/home">Accueil</a></li>
 			<li class="active">Contactez-nous</li>
 		</ol>
 

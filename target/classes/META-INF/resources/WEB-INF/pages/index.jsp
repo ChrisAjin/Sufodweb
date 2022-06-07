@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-<title>Sufod - Free game but expensive e-shop $_$</title>
+<title>Sufod - Jeu gratuit mais e-shop honéreux $_$</title>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -73,6 +73,7 @@
 		<!-- Header -->
 		<div class="container">
 			<div class="row">
+				<br> <br> <br> <br>
 				<h1 class="lead">~REJOIGNEZ LE MONDE DE SUFOD EN PLETORIA~</h1>
 				<p class="tagline">~Sufod, un monde aux mille merveilles~</p>
 				<p>
@@ -83,31 +84,21 @@
 			</div>
 		</div>
 	</header>
-	<!-- /Header -->
-	<header id="head" class="secondary"></header>
-	<div class="container">
-		<div class="row">
-			<h1 class="lead">~REJOIGNEZ LE MONDE DE SUFOD EN PLETORIA~</h1>
-			<p class="tagline">~Sufod, un monde aux mille merveilles~</p>
-			<p>
-				<a class="btn btn-default btn-lg" role="button" href="e-shop.html">E-shop</a>
-				<a class="btn btn-action btn-lg" role="button">TELECHARGEMENT</a>
-			</p>
-		</div>
-	</div>
-	</header>
+	<header id="head" class="secondary"> </header>
+	<header id="head" class="secondary"> </header>
 	<!-- /Header -->
 	<!-- Intro -->
 	<div class="container text-center">
-		<br> <br>
-		<h2 class="thin">The best place to tell people why they are here</h2>
+		<h2 class="thin">Un petit projet sympathique</h2>
 		<p class="text-muted">
-			The difference between involvement and commitment is like an
-			eggs-and-ham breakfast:<br> the chicken was involved; the pig
-			was committed.
+			Ce jeu et a fortiori le site ont été réalisé dans le cadre d'un
+			projet de groupe au cours de la formation dispensée par AJC
+			Ingéniérie.<br> Nous espérons que ceux-ci plairont à notre
+			public lors de notre présentation finale.
 		</p>
 	</div>
 	<!-- /Intro-->
+
 	<!-- Highlights - jumbotron -->
 	<div class="jumbotron top-space">
 		<div class="container">
@@ -118,7 +109,7 @@
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
 						<h4>
-							<i class="fa fa-cogs fa-5"></i>Mécaniques de jeu intéressante !
+							<i class="fa fa-cogs fa-5"></i>Mécaniques de jeu intéressantes !
 						</h4>
 					</div>
 					<div class="h-body text-center">
@@ -146,7 +137,7 @@
 				<div class="col-md-4 col-sm-6 highlight">
 					<div class="h-caption">
 						<h4>
-							<i class="fa fa-smile-o fa-5"></i>Une problème, le support est là
+							<i class="fa fa-smile-o fa-5"></i>Un problème, le support est là
 							!
 						</h4>
 					</div>
@@ -163,6 +154,7 @@
 		</div>
 	</div>
 	<!-- /Highlights -->
+
 	<!-- container -->
 	<div class="container">
 
@@ -219,12 +211,14 @@
 				perspiciatis at voluptatibus. Libero, aliquid illum possimus numquam
 				fuga.</h4>
 			<p class="text-right">
-				<a class="btn btn-primary btn-large">Learn more</a>
+				<a href="${base}/about" class="btn btn-primary btn-large">Learn
+					more</a>
 			</p>
 		</div>
 
 	</div>
 	<!-- /container -->
+
 	<!-- Social links. @TODO: replace by link/instructions in template -->
 	<section id="social">
 		<div class="container">
@@ -241,6 +235,8 @@
 		</div>
 	</section>
 	<!-- /social links -->
+
+
 	<footer id="footer" class="top-space">
 
 		<div class="footer1">
@@ -293,7 +289,7 @@
 								<a href="#">Home</a> | <a href="${base}/about">Actus</a> | <a
 									href="${base}/sidebar-right">Sidebar</a> | <a
 									href="${base}/pages-termes">CGUs</a> | <a
-									href="${base}/contact">Contactez-nous</a> | <b><a
+									href="${base}/contact">Contact</a> | <b><a
 									href="${base}/signup">S'inscrire</a></b>
 							</p>
 						</div>
@@ -312,6 +308,11 @@
 			</div>
 		</div>
 	</footer>
+
+
+
+
+
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 	<script
 		src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -320,6 +321,5 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>
-
 </body>
 </html>

@@ -75,7 +75,7 @@
 	<div class="container">
 
 		<ol class="breadcrumb">
-			<li><a href="index.html">Home</a></li>
+			<li><a href="${base}/home">Accueil</a></li>
 			<li class="active">Evénement Iop enragé !</li>
 		</ol>
 
@@ -108,7 +108,7 @@
 					possible).</p>
 			</article>
 			<h5>
-				<a href="about.html">Retour actus</a>
+				<a href="${base}/about">Retour actus</a>
 			</h5>
 			<!-- /Article -->
 		</div>

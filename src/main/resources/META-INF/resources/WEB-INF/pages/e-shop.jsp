@@ -73,6 +73,10 @@
 
 	<!-- container -->
 	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="${base}/home">Accueil</a></li>
+			<li class="active">E-shop</li>
+		</ol>
 		<br> <br> <br>
 		<main>
 			<div class="row row-cols-1 row-cols-md-2 mb-3 text-center">

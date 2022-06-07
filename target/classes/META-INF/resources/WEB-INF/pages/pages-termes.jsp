@@ -73,6 +73,11 @@
 	<div class="container text-left">
 		<!-- container -->
 		<div class="container">
+
+			<ol class="breadcrumb">
+				<li><a href="${base}/home">Accueil</a></li>
+				<li class="active">Conditions générales d'utilisations</li>
+			</ol>
 			<h1 class="translation translation-46307" id="agb2011_00_00_00_0">
 				Conditions générales d'utilisation</h1>
 		</div>

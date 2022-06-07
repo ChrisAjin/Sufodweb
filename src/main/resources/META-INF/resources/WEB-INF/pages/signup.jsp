@@ -76,7 +76,7 @@
 	<div class="container">
 
 		<ol class="breadcrumb">
-			<li><a href="${base}/home">Home</a></li>
+			<li><a href="${base}/home">Accueil</a></li>
 			<li class="active">Inscription</li>
 		</ol>
 
@@ -133,13 +133,14 @@
 								</div>
 								<hr>
 								<div class="row">
-									<div class="col-lg-8">
+									<div class="col-lg-7">
 										<label class="checkbox"> <input type="checkbox">
 											J'ai lu et accepté les <a href="${base}/page_terms">CGUs</a>.
 										</label>
 									</div>
-									<div class="col-lg-4 text-right">
+									<div class="col-lg-4 text-center">
 										<button class="btn btn-action" type="submit">S'enregistrer</button>
+										<div class="col-lg-1"></div>
 									</div>
 								</div>
 							</form>

@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-<title>Sufod - Free game but expensive e-shop $_$</title>
+<title>Sufod - Jeu gratuit mais e-shop honéreux $_$</title>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -89,11 +89,12 @@
 	<!-- /Header -->
 	<!-- Intro -->
 	<div class="container text-center">
-		<h2 class="thin">The best place to tell people why they are here</h2>
+		<h2 class="thin">Un petit projet sympathique</h2>
 		<p class="text-muted">
-			The difference between involvement and commitment is like an
-			eggs-and-ham breakfast:<br> the chicken was involved; the pig
-			was committed.
+			Ce jeu et a fortiori le site ont été réalisé dans le cadre d'un
+			projet de groupe au cours de la formation dispensée par AJC
+			Ingéniérie.<br> Nous espérons que ceux-ci plairont à notre
+			public lors de notre présentation finale.
 		</p>
 	</div>
 	<!-- /Intro-->
@@ -210,7 +211,8 @@
 				perspiciatis at voluptatibus. Libero, aliquid illum possimus numquam
 				fuga.</h4>
 			<p class="text-right">
-				<a class="btn btn-primary btn-large">Learn more</a>
+				<a href="${base}/about" class="btn btn-primary btn-large">Learn
+					more</a>
 			</p>
 		</div>
 
