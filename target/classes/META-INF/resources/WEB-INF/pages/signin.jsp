@@ -53,12 +53,12 @@
 							<li><a href="${base}/cra-release">Cras de sortie</a></li>
 							<li><a href="${base}/owi-ankor">Owi ankor, le retour</a></li>
 						</ul></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
+					<!-- <li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="${base}/sidebar-left">Left Sidebar</a></li>
 							<li><a href="${base}/sidebar-right">Right Sidebar</a></li>
-						</ul></li>
+						</ul></li> -->
 					<li><a href="${base}/contact">Contactez-nous</a></li>
 					<li><a href="${base}/e-shop">E-shop</a></li>
 					<li class="nav-item"><a class="btn btn-action btn-lg"
@@ -93,7 +93,7 @@
 							<h3 class="thin text-center">Vous connecter à votre compte</h3>
 							<p class="text-center text-muted">
 								Rejoignez l'aventure et <a href="${base}/signup">Inscrivez-vous</a>
-								pour visiter.
+								pour visiter ce monde féérique.
 							</p>
 							<hr>
 
@@ -108,24 +108,22 @@
 											Mot de passe <span class="text-danger">*</span>
 										</p>
 										<input type="password" class="form-control">
-										<div class="col-sm-12">
-											<label>Tous les champs ayant <span
-												class="text-danger">*</span> sont obligatoires.
-											</label>
-										</div>
 									</div>
 								</div>
-
-								<hr>
-
+								<p>
+									<label>Tous les champs ayant <span class="text-danger">*</span>
+										sont obligatoires.
+									</label>
+								</p>
 								<div class="row">
-									<div class="col-lg-8">
+									<div class="col-lg-6">
 										<p>
-											<a href="">Mot de passe oublié?</a>
+											<a href="${base}/fgtnpswd">Mot de passe oublié?</a>
 										</p>
 									</div>
 									<div class="col-lg-4 text-right">
-										<a class="btn btn-action btn-lg" role="button">Se connecer</a>
+										<a class="btn btn-action btn-lg" role="button">Se
+											connecter</a>
 									</div>
 								</div>
 							</form>

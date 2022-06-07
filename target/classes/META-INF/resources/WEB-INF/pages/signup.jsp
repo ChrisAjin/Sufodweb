@@ -54,12 +54,12 @@
 							<li><a href="${base}/cra-release">Cras de sortie</a></li>
 							<li><a href="${base}/owi-ankor">Owi ankor, le retour</a></li>
 						</ul></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
+					<!-- <li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="${base}/sidebar-left">Left Sidebar</a></li>
 							<li><a href="${base}/sidebar-right">Right Sidebar</a></li>
-						</ul></li>
+						</ul></li> -->
 					<li><a href="${base}/contact">Contactez-nous</a></li>
 					<li><a href="${base}/e-shop">E-shop</a></li>
 					<li class="nav-item"><a class="btn btn-action btn-lg"

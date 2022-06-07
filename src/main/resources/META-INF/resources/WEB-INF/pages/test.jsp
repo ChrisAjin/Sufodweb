@@ -54,12 +54,12 @@
 							<li><a href="${base}/cra-release">Cras de sortie</a></li>
 							<li><a href="${base}/owi-ankor">Owi ankor, le retour</a></li>
 						</ul></li>
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
+					<!-- <li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="${base}/sidebar-left">Left Sidebar</a></li>
 							<li><a href="${base}/sidebar-right">Right Sidebar</a></li>
-						</ul></li>
+						</ul></li> -->
 					<li><a href="${base}/contact">Contactez-nous</a></li>
 					<li><a href="${base}/e-shop">E-shop</a></li>
 					<li class="nav-item"><a class="btn btn-action btn-lg"
@@ -93,7 +93,8 @@
 								<li>Un pagne</li>
 								<li>Une arme basique (on est pas des bêtes!)</li>
 							</ul>
-							<button type="button" class="w-100 btn btn-lg btn-outline-primary">Inscrivez-vous
+							<button type="button"
+								class="w-100 btn btn-lg btn-outline-primary">Inscrivez-vous
 								gratuitement !</button>
 						</div>
 					</div>
@@ -169,9 +170,9 @@
 						<div class="widget-body">
 							<p class="follow-me-icons clearfix">
 								<a href=""><i class="fa fa-twitter fa-2"></i></a> <a href=""><i
-										class="fa fa-dribbble fa-2"></i></a> <a href=""><i
-										class="fa fa-github fa-2"></i></a> <a href=""><i
-										class="fa fa-facebook fa-2"></i></a>
+									class="fa fa-dribbble fa-2"></i></a> <a href=""><i
+									class="fa fa-github fa-2"></i></a> <a href=""><i
+									class="fa fa-facebook fa-2"></i></a>
 							</p>
 						</div>
 					</div>
@@ -197,8 +198,8 @@
 						<div class="widget-body">
 							<p class="simplenav">
 								<a href="#">Home</a> | <a href="about.html">Actus</a> | <a
-									href="sidebar-right.html">Sidebar</a> | <a href="pages-termes.html">CGUs</a> | <a
-									href="contact.html">Contactez-nous</a>
+									href="sidebar-right.html">Sidebar</a> | <a
+									href="pages-termes.html">CGUs</a> | <a href="contact.html">Contactez-nous</a>
 								| <b><a href="signup.html">S'inscrire</a></b>
 							</p>
 						</div>
@@ -207,8 +208,8 @@
 					<div class="col-md-6 widget">
 						<div class="widget-body">
 							<p class="text-right">
-								Copyright &copy; 2022, SUFOD TEAM. Designed by <a href="http://gettemplate.com/"
-									rel="designer">gettemplate</a>
+								Copyright &copy; 2022, SUFOD TEAM. Designed by <a
+									href="http://gettemplate.com/" rel="designer">gettemplate</a>
 							</p>
 						</div>
 					</div>
@@ -223,8 +224,10 @@
 
 
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script
+		src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/template.js"></script>

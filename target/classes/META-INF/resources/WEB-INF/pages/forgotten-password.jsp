@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
-<title>Owi Ankor !</title>
+<title>Mot de passe oublié? - Sufod</title>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -76,45 +76,66 @@
 
 		<ol class="breadcrumb">
 			<li><a href="${base}/home">Accueil</a></li>
-			<li class="active">Evénement Owi Ankor, le retour !</li>
+			<li class="active">Mot de passe oublié</li>
 		</ol>
 
 		<div class="row">
-			<header class="page-header">
-				<h1 class="page-title text-center">Owi ankor !</h1>
-			</header>
+
 			<!-- Article main content -->
-			<article class="col-md maincontent">
-				<h2>Owi Ankor est revenue !</h2>
-				<img src="images/osamodasF_illu.png" alt="" class="img-responsive"
-					width="360"><br>
-				<p>Owi Ankor est de retour pour vous jouer un mauvais tour !
-					Lors de son dernier aussaut, Owi Ankor a mis un désordre sans nom.
-					Quoiqu'il arrive, cet apôtre du Dieu Osamodas ne doit pas rejoindre
-					son temple.
-				<h3>Evenement de groupe !</h3>
-				<img src="images/8E47oNu.png" alt="" class="img-responsive"
-					width="360"><br>
-				<p>Venez profiter de l'occasion que vous offre Owi Ankor et
-					arrêtez-la avant qu'elle ne puisse rendre hommage à son Dieu! Une
-					montagne de loots sera obtenable si jamais ce boss est vaincu avant
-					d'accomplir son devoir !</p>
-				<h3>La rage du Dieu Osamodas !</h3>
-				<img
-					src="images/tumblr_c59dc5887f4dcc38977aa978c8bbe2b7_bdb811a6_640.jpg"
-					alt="" class="img-responsive" width="360"><br>
-				<p>La parole du Dieu Osamodas est absolue (du moins dans ses
-					pensées). Osez vous prendre pour plus puissant qu'un Dieu et
-					provoquez-le pour lui faire comprendre que ce dieu n'est pas le
-					vôtre ! Terminez le nouveau donjon, la tour des invocations folles
-					pour lui montrer que vous ne lui prêterez alléageance sous aucun
-					prétexte et volez-lui un Gobgob qui deviendra votre familier!</p>
-			</article>
-			<!-- /Article -->
-			<h5>
-				<a href="${base}/about">Retour actus</a>
-			</h5>
+			<article class="col-xs-12 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Mot de passe oublié</h1>
+				</header>
+
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h3 class="thin text-center">Veuillez renseignerles
+								informations de votre compte</h3>
+							<hr>
+
+							<form>
+								<div class="top-margin">
+									<p>
+										Identifiant/Email <span class="text-danger">*</span>
+									</p>
+									<input type="text" class="form-control">
+									<div class="top-margin">
+										<p>
+											Pseudo <span class="text-danger">*</span>
+										</p>
+										<input type="password" class="form-control">
+									</div>
+								</div>
+								<p>
+									<label>Tous les champs ayant <span class="text-danger">*</span>
+										sont obligatoires.
+									</label>
+								</p>
+								<div class="col-lg-4 text-right">
+									<a class="btn btn-action btn-lg" role="button">Envoyer la
+										requête</a>
+								</div>
+						</div>
+						</form>
+
+					</div>
+				</div>
 		</div>
+		<div>
+			<p>En appuyant sur le bouton envoyer votre mot de passe sera
+				réinitialisé. De ce fait pour vous connecter à nouveau vous devrez
+				utiliser le nouveau mot de passe que nous vous enverrons à l'adresse
+				mail que vous aurez indiqué dans un délai de 7 jours. Passé ce
+				délai, ce mot de passe ne sera plus valide et vous devrez réitéré
+				votre demande.</p>
+		</div>
+		<div class="col-md-10"></div>
+		<i><div class="col-md-2">La Sufod Team</div></i>
+		</article>
+		<!-- /Article -->
+
+	</div>
 	</div>
 	<!-- /container -->
 
