@@ -11,15 +11,6 @@
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 <title>Sufod - Free game but expensive e-shop $_$</title>
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	crossorigin="anonymous">
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -31,8 +22,14 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
 </head>
-<body class="home">
+<body>
 	<!-- Fixed navbar -->
 	<div class="navbar navbar-inverse navbar-fixed-top headroom">
 		<div class="container">
@@ -46,38 +43,24 @@
 				<a class="navbar-brand" href="${base}/home"><img
 					src="images/sufod-logo.png" height="70" alt="Sufod Icon"></a>
 			</div>
-			<div class="navbar navbar-expand-sm">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="${base}/home">Accueil</a>
-						<p class="col-md-1"></li>
-					<li class="dropdown"><a href="#"
-						class="nav-link dropdown-toggle" data-toggle="dropdown">Actualités<b
-							class="caret"></b></a>
-						<p class="col-md-1">
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="${base}/home">Accueil</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown">Actualités <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/iopenrage">Iop enragé</a></li>
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/cra-release">Cras de sortie</a></li>
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/owi-ankor">Owi ankor, le retour</a></li>
+							<li><a href="${base}/iopenrage">Iop enragé</a></li>
+							<li><a href="${base}/cra-release">Cras de sortie</a></li>
+							<li><a href="${base}/owi-ankor">Owi ankor, le retour</a></li>
 						</ul></li>
-					<li class="dropdown"><a href="#"
-						class="nav-link dropdown-toggle" data-toggle="dropdown">More
-							Pages <b class="caret"></b>
-					</a>
-						<p class="col-md-1">
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/sidebar-left">Left Sidebar</a></li>
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/sidebar-right">Right Sidebar</a></li>
+							<li><a href="${base}/sidebar-left">Left Sidebar</a></li>
+							<li><a href="${base}/sidebar-right">Right Sidebar</a></li>
 						</ul></li>
-					<li class="nav-item"><a class="nav-link"
-						href="${base}/contact">Contactez-nous</a>
-						<p class="col-md-1"></li>
-					<li class="nav-item"><a class="nav-link" href="${base}/e-shop">E-shop</a>
-						<p class="col-md-1"></li>
+					<li><a href="${base}/contact">Contactez-nous</a></li>
+					<li><a href="${base}/e-shop">E-shop</a></li>
 					<li class="nav-item"><a class="btn btn-action btn-lg"
 						href="${base}/signin">S'INSCRIRE / SE CONNECTER</a></li>
 				</ul>
@@ -86,11 +69,11 @@
 		</div>
 	</div>
 	<!-- /.navbar -->
-
-	<!-- Header -->
-	<header id="head">
+	<header id="head" class="secondary">
+		<!-- Header -->
 		<div class="container">
 			<div class="row">
+				<br> <br> <br> <br>
 				<h1 class="lead">~REJOIGNEZ LE MONDE DE SUFOD EN PLETORIA~</h1>
 				<p class="tagline">~Sufod, un monde aux mille merveilles~</p>
 				<p>
@@ -101,11 +84,11 @@
 			</div>
 		</div>
 	</header>
+	<header id="head" class="secondary"> </header>
+	<header id="head" class="secondary"> </header>
 	<!-- /Header -->
-
 	<!-- Intro -->
 	<div class="container text-center">
-		<br> <br>
 		<h2 class="thin">The best place to tell people why they are here</h2>
 		<p class="text-muted">
 			The difference between involvement and commitment is like an

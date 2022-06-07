@@ -5,21 +5,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+
 <title>E-shop $_$ !</title>
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	crossorigin="anonymous">
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="assets/images/gt_favicon.png">
 
 <link rel="stylesheet" media="screen"
@@ -31,6 +22,12 @@
 <link rel="stylesheet" href="assets/css/bootstrap-theme.css"
 	media="screen">
 <link rel="stylesheet" href="assets/css/main.css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<!-- Fixed navbar -->
@@ -46,38 +43,24 @@
 				<a class="navbar-brand" href="${base}/home"><img
 					src="images/sufod-logo.png" height="70" alt="Sufod Icon"></a>
 			</div>
-			<div class="navbar navbar-expand-sm">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="${base}/home">Accueil</a>
-						<p class="col-md-1"></li>
-					<li class="dropdown"><a href="#"
-						class="nav-link dropdown-toggle" data-toggle="dropdown">Actualités<b
-							class="caret"></b></a>
-						<p class="col-md-1">
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li><a href="${base}/home">Accueil</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown">Actualités <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/iopenrage">Iop enragé</a></li>
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/cra-release">Cras de sortie</a></li>
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/owi-ankor">Owi ankor, le retour</a></li>
+							<li><a href="${base}/iopenrage">Iop enragé</a></li>
+							<li><a href="${base}/cra-release">Cras de sortie</a></li>
+							<li><a href="${base}/owi-ankor">Owi ankor, le retour</a></li>
 						</ul></li>
-					<li class="dropdown"><a href="#"
-						class="nav-link dropdown-toggle" data-toggle="dropdown">More
-							Pages <b class="caret"></b>
-					</a>
-						<p class="col-md-1">
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown">More Pages <b class="caret"></b></a>
 						<ul class="dropdown-menu">
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/sidebar-left">Left Sidebar</a></li>
-							<li class="nav-item"><a class="nav-link"
-								href="${base}/sidebar-right">Right Sidebar</a></li>
+							<li><a href="${base}/sidebar-left">Left Sidebar</a></li>
+							<li><a href="${base}/sidebar-right">Right Sidebar</a></li>
 						</ul></li>
-					<li class="nav-item"><a class="nav-link"
-						href="${base}/contact">Contactez-nous</a>
-						<p class="col-md-1"></li>
-					<li class="nav-item"><a class="nav-link" href="${base}/e-shop">E-shop</a>
-						<p class="col-md-1"></li>
+					<li><a href="${base}/contact">Contactez-nous</a></li>
+					<li><a href="${base}/e-shop">E-shop</a></li>
 					<li class="nav-item"><a class="btn btn-action btn-lg"
 						href="${base}/signin">S'INSCRIRE / SE CONNECTER</a></li>
 				</ul>
@@ -90,9 +73,7 @@
 
 	<!-- container -->
 	<div class="container">
-		<br>
-		<br>
-		<br>
+		<br> <br> <br>
 		<main>
 			<div class="row row-cols-1 row-cols-md-2 mb-3 text-center">
 				<!-- 			Free pack 			-->
