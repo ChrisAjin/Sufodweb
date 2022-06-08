@@ -122,8 +122,8 @@
 										</p>
 									</div>
 									<div class="col-lg-4 text-right">
-										<a class="btn btn-action btn-lg" role="button">Se
-											connecter</a>
+										<a href="${base}/home" class="btn btn-action btn-lg"
+											role="button">Se connecter</a>
 									</div>
 								</div>
 							</form>
@@ -150,9 +150,9 @@
 						<h3 class="widget-title">Contactez-nous</h3>
 						<div class="widget-body">
 							<p>
-								+234 23 9873237<br> <a
+								XX XX XX XX XX<br> <a
 									href="mailto:benoit.baylerian@soprasteria.com">Support</a><br>
-								<br> 234 Hidden Pond Road, Ashland City, TN 37015
+								<br> Somewhere over the rainbow
 							</p>
 						</div>
 					</div>

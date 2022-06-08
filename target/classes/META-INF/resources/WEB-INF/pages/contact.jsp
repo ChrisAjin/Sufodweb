@@ -125,11 +125,11 @@
 			<aside class="col-sm-3 sidebar sidebar-right">
 
 				<div class="widget">
-					<h4>Address</h4>
-					<address>2002 Holcombe Boulevard, Houston, TX 77030, USA
+					<h4>Addresse :</h4>
+					<address>Somewhere over the rainbow
 					</address>
-					<h4>Phone:</h4>
-					<address>(713) 791-1414</address>
+					<h4>Téléphone:</h4>
+					<address>XX XX XX XX XX</address>
 				</div>
 
 			</aside>
@@ -147,9 +147,9 @@
 						<h3 class="widget-title">Contactez-nous</h3>
 						<div class="widget-body">
 							<p>
-								+234 23 9873237<br> <a
+								XX XX XX XX XX<br> <a
 									href="mailto:benoit.baylerian@soprasteria.com">Support</a><br>
-								<br> 234 Hidden Pond Road, Ashland City, TN 37015
+								<br> Somewhere over the rainbow
 							</p>
 						</div>
 					</div>

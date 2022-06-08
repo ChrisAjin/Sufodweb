@@ -118,7 +118,6 @@
 	</div>
 	<!-- /container -->
 
-
 	<footer id="footer" class="top-space">
 
 		<div class="footer1">
@@ -129,9 +128,9 @@
 						<h3 class="widget-title">Contactez-nous</h3>
 						<div class="widget-body">
 							<p>
-								+234 23 9873237<br> <a
+								XX XX XX XX XX<br> <a
 									href="mailto:benoit.baylerian@soprasteria.com">Support</a><br>
-								<br> 234 Hidden Pond Road, Ashland City, TN 37015
+								<br> Somewhere over the rainbow
 							</p>
 						</div>
 					</div>
@@ -157,34 +156,6 @@
 						</div>
 					</div>
 
-				</div>
-				<!-- /row of widgets -->
-			</div>
-		</div>
-
-		<div class="footer2">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="simplenav">
-								<a href="#">Home</a> | <a href="${base}/about">Actus</a> | <a
-									href="${base}/sidebar-right">Sidebar</a> | <a
-									href="${base}/pages-termes">CGUs</a> | <a
-									href="${base}/contact">Contact</a> | <b><a
-									href="${base}/signup">S'inscrire</a></b>
-							</p>
-						</div>
-					</div>
-
-					<div class="col-md-6 widget">
-						<div class="widget-body">
-							<p class="text-right">
-								Copyright &copy; 2022, SUFOD TEAM. Designed by <a
-									href="http://gettemplate.com/" rel="designer">gettemplate</a>
-							</p>
-						</div>
-					</div>
 				</div>
 				<!-- /row of widgets -->
 			</div>

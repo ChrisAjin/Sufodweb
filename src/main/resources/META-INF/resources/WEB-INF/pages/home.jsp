@@ -78,8 +78,8 @@
 				<p class="tagline">~Sufod, un monde aux mille merveilles~</p>
 				<p>
 					<a class="btn btn-default btn-lg" role="button"
-						href="${base}/e-shop">E-shop</a> <a class="btn btn-action btn-lg"
-						role="button">TELECHARGEMENT</a>
+						href="${base}/e-shop">E-shop</a> <a href="${base}/signin"
+						class="btn btn-action btn-lg" role="button">CONNEXION</a>
 				</p>
 			</div>
 		</div>
@@ -158,61 +158,18 @@
 	<!-- container -->
 	<div class="container">
 
-		<h2 class="text-center top-space">Frequently Asked Questions</h2>
+		<h2 class="text-center top-space">L'heure est grave, l'oral
+			approche !</h2>
 		<br>
 
-		<div class="row">
-			<div class="col-sm-6">
-				<h3>Which code editor would you recommend?</h3>
-				<p>
-					I'd highly recommend you <a href="http://www.sublimetext.com/">Sublime
-						Text</a> - a free to try text editor which I'm using daily. Awesome
-					tool!
-				</p>
-			</div>
-			<div class="col-sm-6">
-				<h3>Nice header. Where do I find more images like that one?</h3>
-				<p>
-					Well, there are thousands of stock art galleries, but personally, I
-					prefer to use photos from these sites: <a
-						href="http://unsplash.com">Unsplash.com</a> and <a
-						href="http://www.flickr.com/creativecommons/by-2.0/tags/">Flickr
-						- Creative Commons</a>
-				</p>
-			</div>
-		</div>
-		<!-- /row -->
-
-		<div class="row">
-			<div class="col-sm-6">
-				<h3>Can I use it to build a site for my client?</h3>
-				<p>
-					Yes, you can. You may use this template for any purpose, just don't
-					forget about the <a
-						href="http://creativecommons.org/licenses/by/3.0/">license</a>,
-					which says: "You must give appropriate credit", i.e. you must
-					provide the name of the creator and a link to the original template
-					in your work.
-				</p>
-			</div>
-			<div class="col-sm-6">
-				<h3>Can you customize this template for me?</h3>
-				<p>Yes, I can. Please drop me a line to sergey-at-pozhilov.com
-					and describe your needs in details. Please note, my services are
-					not cheap.</p>
-			</div>
-		</div>
-		<!-- /row -->
-
 		<div class="jumbotron top-space">
-			<h4>Dicta, nostrum nemo soluta sapiente sit dolor quae voluptas
-				quidem doloribus recusandae facere magni ullam suscipit sunt atque
-				rerum eaque iusto facilis esse nam veniam incidunt officia
-				perspiciatis at voluptatibus. Libero, aliquid illum possimus numquam
-				fuga.</h4>
+			<h4>En ce jour, nous vous présentons l'aboutissement de notre
+				travail à l'issue de la formation. Nous avons ramé, parfois chuté
+				mais jamais renoncé afin de produire un travail qui nous l'espèrons
+				vous conviendra.</h4>
 			<p class="text-right">
-				<a href="${base}/about" class="btn btn-primary btn-large">Learn
-					more</a>
+				<a href="${base}/about" class="btn btn-primary btn-large">En
+					avant !</a>
 			</p>
 		</div>
 
@@ -247,9 +204,9 @@
 						<h3 class="widget-title">Contactez-nous</h3>
 						<div class="widget-body">
 							<p>
-								+234 23 9873237<br> <a
+								XX XX XX XX XX<br> <a
 									href="mailto:benoit.baylerian@soprasteria.com">Support</a><br>
-								<br> 234 Hidden Pond Road, Ashland City, TN 37015
+								<br> Somewhere over the rainbow
 							</p>
 						</div>
 					</div>

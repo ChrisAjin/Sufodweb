@@ -90,21 +90,21 @@
 				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 					<div class="panel panel-default">
 						<div class="panel-body">
-							<h3 class="thin text-center">Veuillez renseignerles
+							<h3 class="thin text-center">Veuillez renseigner les
 								informations de votre compte</h3>
 							<hr>
 
 							<form>
 								<div class="top-margin">
 									<p>
-										Identifiant/Email <span class="text-danger">*</span>
+										Email <span class="text-danger">*</span>
 									</p>
-									<input type="text" class="form-control">
+									<input type="email" class="form-control">
 									<div class="top-margin">
 										<p>
 											Pseudo <span class="text-danger">*</span>
 										</p>
-										<input type="password" class="form-control">
+										<input type="text" class="form-control">
 									</div>
 								</div>
 								<p>
@@ -113,29 +113,27 @@
 									</label>
 								</p>
 								<div class="col-lg-4 text-right">
-									<a class="btn btn-action btn-lg" role="button">Envoyer la
-										requête</a>
+									<a href="${base}/signin" class="btn btn-action btn-lg"
+										role="button">Envoyer la requête</a>
 								</div>
-						</div>
-						</form>
+							</form>
 
+						</div>
 					</div>
 				</div>
+			</article>
+			<!-- /Article -->
+			<div>
+				<p>En appuyant sur le bouton envoyer votre mot de passe sera
+					réinitialisé. De ce fait pour vous connecter à nouveau vous devrez
+					utiliser le nouveau mot de passe que nous vous enverrons à
+					l'adresse mail que vous aurez indiqué dans un délai de 7 jours.
+					Passé ce délai, ce mot de passe ne sera plus valide et vous devrez
+					réitéré votre demande.</p>
+			</div>
+			<div class="col-md-10"></div>
+			<i><label class="col-md-2">La Sufod Team</label></i>
 		</div>
-		<div>
-			<p>En appuyant sur le bouton envoyer votre mot de passe sera
-				réinitialisé. De ce fait pour vous connecter à nouveau vous devrez
-				utiliser le nouveau mot de passe que nous vous enverrons à l'adresse
-				mail que vous aurez indiqué dans un délai de 7 jours. Passé ce
-				délai, ce mot de passe ne sera plus valide et vous devrez réitéré
-				votre demande.</p>
-		</div>
-		<div class="col-md-10"></div>
-		<i><div class="col-md-2">La Sufod Team</div></i>
-		</article>
-		<!-- /Article -->
-
-	</div>
 	</div>
 	<!-- /container -->
 
@@ -150,9 +148,9 @@
 						<h3 class="widget-title">Contactez-nous</h3>
 						<div class="widget-body">
 							<p>
-								+234 23 9873237<br> <a
+								XX XX XX XX XX<br> <a
 									href="mailto:benoit.baylerian@soprasteria.com">Support</a><br>
-								<br> 234 Hidden Pond Road, Ashland City, TN 37015
+								<br> Somewhere over the rainbow
 							</p>
 						</div>
 					</div>
